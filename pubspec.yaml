@@ -35,6 +35,69 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Navigation
+  go_router: ^16.0.0
+
+  # Dependency Injection
+  get_it: ^8.0.3
+
+  # Firebase
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  firebase_crashlytics: ^5.0.0
+  firebase_analytics: ^12.0.0
+  firebase_messaging: ^16.0.0
+  google_sign_in: ^6.3.0
+  # Local Database
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Barcode Scanner
+  mobile_scanner: ^7.0.1
+
+  # Bluetooth Printer
+  print_bluetooth_thermal: ^1.1.6
+
+  # PDF & Printing
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # Excel Export
+  excel: ^4.0.6
+
+  # Images
+  image_picker: ^1.2.0
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.2.0
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  logger: ^2.6.1
+  collection: ^1.19.1
+
+  # Sharing
+  share_plus: ^11.1.0
+
+  # Permissions
+  permission_handler: ^12.0.1
+
+  # Connectivity
+  connectivity_plus: ^7.0.0
+  internet_connection_checker_plus: ^2.7.2
+
+  isar_community: ^3.3.2
+
+  isar_community_flutter_libs: ^3.3.2
+
+  # Animations
+  flutter_animate: ^4.5.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -45,6 +108,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+
+  build_runner: ^2.4.13
+
+  isar_community_generator: ^3.3.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -57,6 +124,12 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - lib/asset/images/
+    - lib/asset/icons/
+    - lib/asset/logo/
+    - lib/asset/pdf/
+    - lib/asset/sounds/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
